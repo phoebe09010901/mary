@@ -1,0 +1,537 @@
+@charset "UTF-8";
+/* CSS Document */					
+/*----------------------上面選單內頁--------------------------------------*/
+.center_btn1{
+	width: 980px;
+	background:#666;
+	}
+.wistlist {
+	float: right;
+	width:113px;
+	height:29px;
+	margin: 8px 0 0 0;	
+}
+	.wistlist .icon {
+		float: left;
+		width:30px;
+		height:29px;
+	}
+	.wistlist .text {
+		float: left;
+		width:75px;
+		height:9px;
+		margin-top:6px;
+		margin-left:5px;
+	}
+.fb{
+	float: right;
+	width:26px;
+	height:26px;
+	margin: 10px 10px 0 0;	
+	}	
+	
+.center_btn2{
+	height: 161px;
+	width: 980px;
+	float: left;
+	background-image: url(../images/center_btn2.png);
+	}	
+.center_btn3{
+	height: 161px;
+	width: 980px;
+	float: left;
+	background-image: url(../images/center_btn3.png);
+	}	
+.center_btn4{/*phoebe*/
+	height: 161px;
+	width: 980px;
+	float: left;
+	background-image: url(../images/center_btn4.png);
+	}	
+.center_btn6{/*phoebe*/
+	height: 161px;
+	width: 980px;
+	float: left;
+	background-image: url(../images/center_btn6.png);
+	}	
+.center_btn_L{
+	height: 161px;
+	width: 149px;
+	float: left;
+	margin-right: 80px;
+	margin-left: 20px;
+	}
+.center_btn_R{/*phoebe*/
+	height: 40px;
+	width: 730px;
+	float: left;
+	}
+.center_btn_R2{/*phoebe*/
+	height: 40px;
+	width: 730px;
+	float: left;
+	margin-top: 79px;
+	}
+.center_btn_Rindex{/*phoebe*/
+	height: 40px;
+	width: 730px;
+	float: left;
+	margin-top: 78px;
+	}
+.center_btn_RL{/*phoebe*/
+	height: 161px;
+	width: 2px;
+	background:#FF9;
+	}	
+.topbtn_allmenu{
+	
+	}	
+.megamenu{
+	
+	}
+.megamenu li{
+	margin-right: 5px;
+
+	}	
+.top_btn_s_menu{/*phoebe*/
+	position: absolute;
+	background-color: #e6535f;
+	height: 128px;
+	width: 281px;
+	float: left;	
+	z-index: 998;
+	margin-left: 5px;
+	padding-left:3px;
+	-webkit-border-radius: 5px;   /*元角*/ 
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	border-radius: 5px;	
+	}
+.top_btn_s_menu_btn{/*phoebe*/
+	width: 150px;
+	float: left;
+	padding-top: 10px;
+	padding-bottom:10px;
+	}	
+.top_btn_s_menu_pic{/*phoebe*/
+	width: 110px;
+	float: right;
+	margin: 15px 10px 10px 10px;
+	}
+.nav-hr{
+	
+	}
+.subnav-item{
+	
+	}
+.subnav-content{
+	
+	}
+.col1 column{
+	
+	}			
+
+
+/*-------------------- 上面選單文字 phoebe -----------------------*/
+.top_btn_01{
+	/*font-family: "Museo Sans 500";*/
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	font-weight: 500;
+	color: #3e3a39;
+	}
+	
+.top_btn_01 a{
+	/*font-family: "Museo Sans 500";*/
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	font-weight: 500;
+	color: #3e3a39;	
+	padding: 3px 10px;
+	text-decoration:none;
+	}
+	
+.top_btn_01 a:hover{
+	/*font-family: "Museo Sans 500";*/
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	font-weight: 500;
+	color: #FFFFFF;
+	-webkit-border-radius: 5px;   /*元角*/ 
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	border-radius: 5px;
+	background-color: #9AC700;
+	padding: 3px 10px;
+	}
+.top_btn_02{
+	/*font-family: "Museo Sans 500";*/
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	font-weight: 500;
+	color: #3e3a39;
+	}
+	
+.top_btn_02 a{
+	/*font-family: "Museo Sans 500";*/
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	font-weight: 500;
+	color: #3e3a39;	
+	padding: 3px 10px;
+	text-decoration:none;
+	}
+	
+.top_btn_02 a:hover{
+	/*font-family: "Museo Sans 500";*/
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	font-weight: 500;
+	color: #FFFFFF;
+	-webkit-border-radius: 5px;   /*元角*/ 
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	border-radius: 5px;
+	background-color: #39B568;
+	padding: 3px 10px;
+	}
+.center_btn7{
+	height: 161px;
+	width: 980px;
+	float: left;
+	background-image: url(../images/center_btn7.png);
+	}	
+.top_btn_03{
+	/*font-family: "Museo Sans 500";*/
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	font-weight: 500;
+	color: #3e3a39;
+	}
+	
+.top_btn_03 a{
+	/*font-family: "Museo Sans 500";*/
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	font-weight: 500;
+	color: #3e3a39;	
+	padding: 3px 10px;
+	text-decoration:none;
+	}
+	
+.top_btn_03 a:hover{
+	/*font-family: "Museo Sans 500";*/
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	font-weight: 500;
+	color: #FFFFFF;
+	-webkit-border-radius: 5px;   /*元角*/ 
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	border-radius: 5px;
+	background-color: #336BB3;
+	padding: 3px 10px;
+	}
+.top_btn_04{
+	/*font-family: "Museo Sans 500";*/
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	font-weight: 500;
+	color: #3e3a39;
+	}
+	
+.top_btn_04 a{
+	/*font-family: "Museo Sans 500";*/
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	font-weight: 500;
+	color: #3e3a39;	
+	padding: 3px 10px;
+	text-decoration:none;
+	}
+	
+.top_btn_04 a:hover{
+	/*font-family: "Museo Sans 500";*/
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	font-weight: 500;
+	color: #FFFFFF;
+	-webkit-border-radius: 5px;   /*元角*/ 
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	border-radius: 5px;
+	background-color: #8156C2;
+	padding: 3px 10px;
+	}
+.top_btn_05{
+	/*font-family: "Museo Sans 500";*/
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	/*font-weight: 500;*/
+	color: #3e3a39;
+	}
+	
+.top_btn_05 a{
+	/*font-family: "Museo Sans 500";*/
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	/*font-weight: 500;*/
+	color: #3e3a39;	
+	padding: 3px 10px;
+	text-decoration:none;	
+	}
+	
+.top_btn_05 a:hover{
+	/*font-family: "Museo Sans 500";*/
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	font-weight: 500;
+	color: #FFFFFF;
+	-webkit-border-radius: 5px;   /*元角*/ 
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	border-radius: 5px;
+	background-color: #E6535F;
+	padding: 3px 10px;
+	}
+.top_btn_06{
+	/*font-family: "Museo Sans 500";*/
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	font-weight: 500;
+	color: #3e3a39;
+	}
+	
+.top_btn_06 a{
+	/*font-family: "Museo Sans 500";*/
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	font-weight: 500;
+	color: #3e3a39;	
+	padding: 3px 10px;
+	text-decoration:none;
+	}
+	
+.top_btn_06 a:hover{
+	/*font-family: "Museo Sans 500";*/
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	font-weight: 500;
+	color: #FFFFFF;
+	-webkit-border-radius: 5px;   /*元角*/ 
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	border-radius: 5px;
+	background-color: #FF611B;
+	padding: 3px 10px;
+	}
+.top_btn_07{
+	/*font-family: "Museo Sans 500";*/
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	font-weight: 500;
+	color: #3e3a39;
+	}
+	
+.top_btn_07 a{
+	/*font-family: "Museo Sans 500";*/
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	font-weight: 500;
+	color: #3e3a39;	
+	padding: 3px 10px;
+	text-decoration:none;
+	}
+	
+.top_btn_07 a:hover{
+	/*font-family: "Museo Sans 500";*/
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	font-weight: 500;
+	color: #FFFFFF;
+	-webkit-border-radius: 5px;   /*元角*/ 
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	border-radius: 5px;
+	background-color: #FF8F1B;
+	padding: 3px 10px;
+	}
+.top_btn_08{
+	/*font-family: "Museo Sans 500";*/
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	font-weight: 500;
+	/*color: #3e3a39;*/
+	color:#CCC;
+	}
+	
+.top_btn_08 a{
+	/*font-family: "Museo Sans 500";*/
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	font-weight: 500;
+	/*color: #3e3a39;*/
+	color:#CCC;
+	padding: 3px 10px;	
+	text-decoration:none;
+	}
+	
+.top_btn_08 a:hover{
+	/*font-family: "Museo Sans 500";*/
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	font-weight: 500;
+	/*color: #FFFFFF;*/
+	color:#CCC;
+	/*
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	border-radius: 5px;
+	background-color: #F36;
+	*/
+	padding: 3px 10px;
+	}								
+		
+.a_select {/*phoebe*/
+	/*font-family: "Museo Sans 500";*/
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	font-weight: 500;
+	color: #FFFFFF;
+	-webkit-border-radius: 5px;   /*元角*/ 
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	border-radius: 5px;
+	background-color: #9AC700;
+	padding: 3px 10px;
+	margin-top:-3px;
+	}	
+.a_select a {/*phoebe*/
+	color: #FFFFFF;
+	text-decoration:none;
+	}
+.b_select {
+	/*font-family: "Museo Sans 500";*/
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	font-weight: 500;
+	color: #FFFFFF;
+	-webkit-border-radius: 5px;   /*元角*/ 
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	border-radius: 5px;
+	background-color: #39b568;
+	padding: 3px 10px;
+	margin-top:-3px;
+	}
+.b_select a {/*phoebe*/
+	color: #FFFFFF;
+	text-decoration:none;
+	}	
+.c_select {
+	/*font-family: "Museo Sans 500";*/
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	font-weight: 500;
+	color: #FFFFFF;
+	-webkit-border-radius: 5px;   /*元角*/ 
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	border-radius: 5px;
+	background-color: #336bb3;
+	padding: 3px 10px;
+	margin-top:-3px;
+	}
+.c_select a {/*phoebe*/
+	color: #FFFFFF;
+	text-decoration:none;
+	}
+.d_select {/*phoebe*/
+	/*font-family: "Museo Sans 500";*/
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	font-weight: 500;
+	color: #FFFFFF;
+	-webkit-border-radius: 5px;   /*元角*/ 
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	border-radius: 5px;
+	background-color: #8156C2;
+	padding: 3px 10px;
+	margin-top:-3px;
+	}
+.d_select a {/*phoebe*/
+	color: #FFFFFF;
+	text-decoration:none;
+	}
+.e_select {
+	/*font-family: "Museo Sans 500";*/
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	font-weight: 500;
+	color: #FFFFFF;
+	-webkit-border-radius: 5px;   /*元角*/
+	border-radius: 5px;
+	background-color: #EA535F;
+	padding: 3px 10px;
+	text-decoration:none;	
+	margin-top:-3px;
+	}	
+.e_select a {/*phoebe*/
+	color: #FFFFFF;
+	text-decoration:none;
+	}
+.f_select {/*phoebe*/
+	/*font-family: "Museo Sans 500";*/
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	font-weight: 500;
+	color: #FFFFFF;
+	-webkit-border-radius: 5px;   /*元角*/ 
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	border-radius: 5px;
+	background-color: #FF611B;
+	padding: 3px 10px;
+	margin-top:-3px;
+	}
+.f_select a {/*phoebe*/
+	color: #FFFFFF;
+	text-decoration:none;
+	}
+.g_select {
+	/*font-family: "Museo Sans 500";*/
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	font-weight: 500;
+	color: #FFFFFF;
+	-webkit-border-radius: 5px;   /*元角*/ 
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	border-radius: 5px;
+	background-color: #ff8f1b;
+	padding: 3px 10px;
+	margin-top:-3px;
+	}
+.g_select a {/*phoebe*/
+	color: #FFFFFF;
+	text-decoration:none;
+	}
+.top_btns { line-height: 20px;}	
+.top_btns a {/*phoebe*/
+	/*font-family: "Museo Sans 500";*/
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #FFFFFF;
+	line-height: 20px;
+	text-decoration:none;
+	}
+	
+.top_btns a:hover{
+	/*font-family: "Museo Sans 500";*/
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #CCD74A;
+	line-height: 20px;
+	}

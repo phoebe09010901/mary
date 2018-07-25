@@ -1,0 +1,1 @@
+<div id='footer_dock' class="footer"><p align="center">&#169; Copyright <?=date("Y")?> <?=Company_Name?> | Powered by <a href="<?=Design_Company_Web?>"><?=Design_Company?> <?=Design_Company_Phone?></a> | <a href="#"><?=Design_Company_Email?></a></p></div>

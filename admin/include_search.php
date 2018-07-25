@@ -1,0 +1,1 @@
+<?php search_form($this_page, $array_search, $_GET['search_row'], $my_query_string); ?>

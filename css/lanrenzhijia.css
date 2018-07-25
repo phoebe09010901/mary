@@ -1,0 +1,230 @@
+@charset "utf-8";
+/* 代码整理：懒人之家 www.lanrenzhijia.com */
+* {
+	margin:0;
+	padding:0;
+}
+body {
+	text-align:left;
+}
+ul,li {
+	list-style:none;
+}
+img {
+	border:none;
+}
+.lanrenzhijiaArea {
+	background:#fff url(../images/loading.gif) center no-repeat;
+	width:1226px;
+	height:697px;
+	position:relative;
+	margin:0 auto;
+}
+.lanrenzhijiaArea .bgGray, #indexFocus ul.indexFocusList li p, .litImgList li p {
+	
+}
+#indexFocus .ui-ifPrevBtn {
+	background:url(../images/arrLeftFocus.png) no-repeat;
+    _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src='../images/arrLeftFocus.png');
+	_background:none;
+	float:left;
+}
+#indexFocus .ui-ifNextBtn {
+	background:url(../images/arrRigFocus.png) no-repeat;
+    _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src='../images/arrRigFocus.png');
+	_background:none;
+	float:right;
+}
+#indexFocus, #indexFocus .ui-ifPrevWrap .ui-prevImg, #indexFocus .ui-ifNextWrap .ui-nextImg {
+	display:none;
+	cursor:pointer;
+}
+#indexFocus .ui-ifPrevWrap {
+	margin-left:-40px;
+}
+#indexFocus .ui-ifNextWrap {
+	margin-right:-40px;
+}
+#indexFocus .ui-ifPrevWrap, #indexFocus .ui-ifNextWrap {
+	position:absolute;
+	z-index:99;
+	bottom:45%;
+	width:34px;
+	height:56px;
+	overflow:hidden;
+	padding:7px 0;
+}
+#indexFocus .ui-ifPrevBtn, #indexFocus .ui-ifNextBtn {
+	display:inline-block;
+	width:34px;
+	height:56px;
+	text-indent:-1000px;
+	overflow:hidden;
+}
+#indexFocus .cur {
+}
+#indexFocus .cur .ui-prevImg, #indexFocus .cur .ui-nextImg {
+	display:inline-block;
+	width:0px;
+	height:0px;
+}
+#indexFocus .cur .ui-prevImg {
+	float:left;
+}
+#indexFocus .cur .ui-nextImg {
+	float:right;
+}
+#indexFocus .indexFocusCon {
+	width:1226px;
+	height:697px;
+	overflow:hidden;
+	position:relative;
+	z-index:0;
+}
+#indexFocus ul.indexFocusList li {
+	width:1226px;
+	height:697px;
+	position:relative;
+	z-index:0;
+}
+#indexFocus ul.indexFocusList li .banner_text {
+	position:absolute;
+	left:350px;
+	top:100px;
+	display:block;
+	width:100%;
+	height:60px;
+	color:#fff;
+}
+#indexFocus ul.indexFocusList li .banner_text2 {
+	position:absolute;
+	left:60px;
+	top:110px;
+	display:block;
+	width:100%;
+	height:60px;
+	color:#fff;
+}
+.flick-title {
+	font-family: "Helvetica Neue";
+	font-size: 127px;
+	text-align: left;
+	line-height: 100px;
+}
+.flick-title2 {
+	font-family: "Helvetica Neue";
+	font-size: 127px;
+	text-align: left;
+	line-height: 100px;
+	color: #d5e044;
+}
+.flick-sub-text {
+	font-family: "Museo Sans 500";
+	padding: 5px;
+	font-weight: 500;
+	line-height: 18px;
+	color: #FFF;
+	text-align: left;
+	font-size: 18px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.flick-sub-text2 {
+	font-family: "Museo Sans 500";
+	padding: 5px;
+	font-weight: 500;
+	line-height: 18px;
+	color: #000;
+	text-align: left;
+	font-size: 18px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.in_btn3 a{/*phoebe*/
+	font-family: "Myriad Pro";
+	font-size: 13px;
+	color: #FFFFFF;
+	background-color: #a7ca01;
+	-webkit-border-radius: 3px;   /*元角*/
+	padding-top: 5px;
+	padding-right: 20px;
+	padding-bottom: 5px;
+	padding-left: 20px;
+	font-weight: bolder;
+	text-decoration:none;
+	}		
+.in_btn3 a:hover{
+	font-family: "Myriad Pro";
+	font-size: 13px;
+	color: #d5e044;
+	background-color: #e84693;
+	-webkit-border-radius: 3px;   /*元角*/
+	padding-top: 5px;
+	padding-right: 20px;
+	padding-bottom: 5px;
+	padding-left: 20px;
+	font-weight: bolder;
+	}
+
+
+
+
+#indexFocus ul.indexFocusList li #indexFocus p {
+	position:absolute;
+	bottom:30px;
+	color:#fff;
+	width:100%;
+	height:40px;
+	line-height:40px;
+	font-size:18px;
+	text-indent:20px;
+}
+#indexFocus .indexFocusNum {
+	position:absolute;
+	z-index:99;
+	right:10px;
+	bottom:10px;
+}
+#indexFocus .indexFocusNum a {
+	float:left;
+	display:inline-block;
+	width:0px;
+	height:0px;
+	background:#eee;
+	text-indent:-100px;
+	overflow:hidden;
+	margin:0 5px;
+}
+.lanrenzhijiaArea img {
+	width:1226px;
+	height:697px;
+}
+.lanrenzhijiaArea .bgGray {
+	display:block;
+	width:1226px;
+	height:60px;
+	position:absolute;
+	left:0;
+	bottom:0;
+}
+#indexFocus .ui-ifPrevWrap, .litImgList .ui-ifPrevWrap {
+	left:0;
+}
+#indexFocus .ui-ifNextWrap, .litImgList .ui-ifNextWrap {
+	right:0;
+}
+#indexFocus ul.indexFocusList, .litImgList ul.indexFocusList {
+	position:absolute;
+	z-index:0;
+	left:0;
+	top:0;
+}
+#indexFocus .indexFocusNum .hover, .litImgList .indexFocusNum .hover {
+	background:#4c99e8;
+}
+.greatTopic .photoText h4 a, .heavyRec .photoText h4 a, .depthReports .photoText h4 a, .financeObserver .photoText h4 a, .carNews .photoText h4 a, .tv .photoText h4 a {
+	font-size:14px;
+	font-weight:700;
+}
+
+/* 代码整理：懒人之家 www.lanrenzhijia.com */

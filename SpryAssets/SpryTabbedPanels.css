@@ -1,0 +1,190 @@
+@charset "UTF-8";
+
+.TabbedPanels {
+	overflow: hidden;
+	margin: 0px;
+	padding: 18px 0 0 0;
+	clear: none;
+	width: 900px; 
+}
+
+
+.TabbedPanelsTabGroup {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 220px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+
+
+.TabbedPanelsTab {
+	position: relative;
+	top: 0px;
+	float: left;
+	background-color: #89bdda;
+	list-style: none;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	cursor: pointer;
+	height: 26px;
+	width: 70px;
+	margin-top: 0px;
+	margin-right: 10px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding-right: 10px;
+	padding-left: 10px;
+	font-family: "Helvetica Neue";
+	font-size: 20px;
+	font-weight: bolder;
+	color: #FFF;
+	text-align: center;
+	-webkit-border-top-left-radius: 5px;
+	-webkit-border-top-right-radius: 5px;
+	-moz-border-radius-topleft: 5px;
+	-moz-border-radius-topright: 5px;
+	-ms-border-top-left-radius: 5px;
+	-ms-border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	
+}
+
+.TabbedPanelsTab2 {
+	position: relative;
+	top: 0px;
+	float: left;
+	background-color: #89bdda;
+	list-style: none;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	cursor: pointer;
+	height: 26px;
+	margin-top: 0px;
+	margin-right: 10px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-top:5px;
+	font-family: "Helvetica Neue";
+	font-size: 16px;
+	font-weight: bolder;
+	color: #FFF;
+	text-align: center;
+	-webkit-border-top-left-radius: 5px;
+	-webkit-border-top-right-radius: 5px;
+	-moz-border-radius-topleft: 5px;
+	-moz-border-radius-topright: 5px;
+	-ms-border-top-left-radius: 5px;
+	-ms-border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	
+}
+
+
+.TabbedPanelsTabHover {
+	background-color: #599ac9;
+}
+
+
+.TabbedPanelsTabSelected {
+	background-color: #599ac9;
+}
+
+
+.TabbedPanelsTab a {
+	color: black;
+	text-decoration: none;
+}
+
+
+.TabbedPanelsContentGroup {
+	clear: both;
+	background-color: #599ac9;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;   
+	-ms-border-radius: 10px; 
+	border-radius: 10px;	
+}
+
+
+.TabbedPanelsContent {
+	overflow: hidden;
+	padding: 8px 4px 8px 4px;
+}
+
+
+.TabbedPanelsContentVisible {
+}
+
+
+
+.VTabbedPanels {
+	overflow: hidden;
+	zoom: 1;
+}
+
+
+.VTabbedPanels .TabbedPanelsTabGroup {
+	float: left;
+	width: 10em;
+	height: 20em;
+	background-color: #EEE;
+	position: relative;
+	border-top: solid 1px #999;
+	border-right: solid 1px #999;
+	border-left: solid 1px #CCC;
+	border-bottom: solid 1px #CCC;
+}
+
+
+.VTabbedPanels .TabbedPanelsTab {
+	float: none;
+	margin: 0px;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+}
+
+
+.VTabbedPanels .TabbedPanelsTabSelected {
+	background-color: #EEE;
+	border-bottom: solid 1px #999;
+}
+
+
+.VTabbedPanels .TabbedPanelsContentGroup {
+	clear: none;
+	float: left;
+	padding: 0px;
+	width: 30em;
+	height: 20em;
+}
+
+/* Styles for Printing */
+@media print {
+.TabbedPanels {
+	overflow: visible !important;
+}
+.TabbedPanelsContentGroup {
+	display: block !important;
+	overflow: visible !important;
+	height: auto !important;
+}
+.TabbedPanelsContent {
+	overflow: visible !important;
+	display: block !important;
+	clear:both !important;
+}
+.TabbedPanelsTab {
+	 overflow: visible !important;
+	 display: block !important;
+	 clear:both !important;
+}
+}

@@ -1,0 +1,544 @@
+
+
+/* end HTML5 boilerplate base styles */
+
+/* 02 =COMMON STYLES
+------------------------- */
+html, body {
+    font-size: 14px;
+    color: #636466;
+    font-family: HelveticaNeueW01-55Roma, Arial;
+    margin: 0px;
+    padding: 0px;
+}
+
+.page-container { 
+	width:960px; margin:auto 
+}
+
+select, input, textarea { 
+	color: #444; 
+}
+
+table,td,tr { 
+	border-collapse:collapse; 
+}
+
+img { 
+	display:block; 
+	border:0;
+}
+
+a { 
+	text-decoration:none;
+}
+
+a:hover { 
+	text-decoration:none;
+}
+
+.left { 
+	float:left; 
+}
+
+.right { 
+	float:right; 
+}
+
+.clear { 
+	clear:both; 
+	height:.01px;
+}
+
+/* 05 = DONATION FORMS
+------------------------- */
+#pagedonate {
+	background-image:url('https://secure.bestfriends.org/page/-/images/Donation_Forms/donationheaderbknd.jpg');
+	display: block;
+	position: relative;
+	height: 209px;
+}
+
+#pagedonate_tabbycat {
+	background-image:url('https://secure.bestfriends.org/page/-/images/Donation_Forms/962x300cat.jpg');
+	display: block;
+	position: relative;
+	height: 300px;
+}
+
+#pagedonate_orangecat {
+	background-image:url('https://secure.bestfriends.org/page/-/images/Donation_Forms/962x300_orangecat.jpg');
+	display: block;
+	position: relative;
+	height: 300px;
+}
+
+#pagedonate_olddog {
+	background-image:url('https://secure.bestfriends.org/page/-/images/Donation_Forms/962x300olddog.jpg');
+	display: block;
+	position: relative;
+	height: 300px;
+}
+
+#pagedonate_smalldog {
+	background-image:url('https://secure.bestfriends.org/page/-/images/Donation_Forms/962x300smdog.jpg');
+	display: block;
+	position: relative;
+	height: 300px;
+}
+
+#pagedonate_puppies {
+	background-image:url('https://secure.bestfriends.org/page/-/images/Donation_Forms/962x411puppies.jpg');
+	display: block;
+	position: relative;
+	height: 411px;
+}
+
+#pagedonate_puppies2 {
+	background-image:url('https://secure.bestfriends.org/page/-/images/Donation_Forms/962x411puppies_default.jpg');
+	display: block;
+	position: relative;
+	height: 411px;
+}
+
+#pagedonate_stacat {
+	background-image:url('https://secure.bestfriends.org/page/-/images/Donation_Forms/962x411cat.jpg');
+	display: block;
+	position: relative;
+	height: 411px;
+}
+
+#pagedonate_alfie1 {
+	background-image:url('https://secure.bestfriends.org/page/-/images/Donation_Forms/alfiedonate1orange.jpg');
+	display: block;
+	position: relative;
+	height: 411px;
+}
+
+#pagedonate_alfie2 {
+	background-image:url('https://secure.bestfriends.org/page/-/images/Donation_Forms/alfiedonate2orange.jpg');
+	display: block;
+	position: relative;
+	height: 411px;
+}
+
+#pagedonate_alfie3 {
+	background-image:url('https://secure.bestfriends.org/page/-/images/Donation_Forms/alfiedonate3.jpg');
+	display: block;
+	position: relative;
+	height: 300px;
+}
+
+#pagedonate_holiday1 {
+	background-image:url('https://secure.bestfriends.org/page/-/images/Donation_Forms/holidaydonate1.jpg');
+	display: block;
+	position: relative;
+	height: 300px;
+}
+
+#pagedonate_holiday2 {
+	background-image:url('https://secure.bestfriends.org/page/-/images/Donation_Forms/holidaydonate2.jpg');
+	display: block;
+	position: relative;
+	height: 300px;
+}
+
+#pagedonate_holiday3 {
+	background-image:url('https://secure.bestfriends.org/page/-/images/Donation_Forms/holidaydonate3.jpg');
+	display: block;
+	position: relative;
+	height: 300px;
+}
+
+#pagedonate_holiday4 {
+	background-image:url('https://secure.bestfriends.org/page/-/images/Donation_Forms/holidaydonate4.jpg');
+	display: block;
+	position: relative;
+	height: 300px;
+}
+
+#pagedonate_match1 {
+	background-image:url('https://secure.bestfriends.org/page/-/images/Donation_Forms/mirage_header.jpg');
+	display: block;
+	position: relative;
+	height: 300px;
+}
+
+#pagedonate_ut {
+	background-image:url('https://secure.bestfriends.org/page/-/images/Donation_Forms/ut_donate.jpg');
+	display: block;
+	position: relative;
+	height: 300px;
+}
+
+#pagedonate_kitten {
+	background-image:url('https://secure.bestfriends.org/page/-/images/Donation_Forms/p2p_kitten_header.jpg');
+	display: block;
+	position: relative;
+	height: 300px;
+}
+
+#pagedonate h1 {
+	font-size:37px;
+	color:#FFF;
+	font-family: HelveticaNeueW01-75Bold, Arial;
+	font-weight: normal;
+	text-transform: none;
+	line-height: 20px;
+    padding-bottom: 0px;
+    float: left;
+    display: block;
+    margin-top: 20px;
+	margin-right: 195px;
+	margin-left: 20px;
+}
+
+h1.pagedonatejoin {
+	font-size: 90px;
+	color: #FFF;
+	font-family: HelveticaNeueW01-75Bold, Arial;
+	font-weight: normal;
+	text-transform: none;
+	line-height: 74px;
+	padding-bottom: 0px;
+	float: left;
+	display: block;
+	margin-top: 32px;
+	margin-right: 470px;
+	margin-left: 20px;
+}
+
+h1.pagedonatejoin2 {
+	font-size: 34px;
+	color: #f58220;
+	font-family: HelveticaNeueW01-75Bold, Arial;
+	font-weight: normal;
+	text-transform: none;
+	line-height: 36px;
+	padding-bottom: 3px;
+	float: left;
+	display: block;
+	margin-top: 0px;
+	margin-right: 470px;
+	margin-left: 0px;
+}
+
+#pagedonate h2 {
+	font-size:14px;
+	color:#FFF;
+	font-family: HelveticaNeueW01-55Roma, Arial;
+    font-weight: normal;
+	text-transform: none;
+	line-height: 20px;
+    padding-bottom: 0px;
+    float: left;
+    display: block;
+    margin-top: 16px;
+	margin-right: 196px;
+	margin-left: 20px;
+}
+
+h2.pagedonatejoin {
+	font-size:16px;
+	color:#FFF;
+	font-family: HelveticaNeueW01-55Roma, Arial;
+    font-weight: normal;
+	text-transform: none;
+	line-height: 20px;
+    padding-bottom: 0px;
+    float: left;
+    display: block;
+	margin-top: 59px;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+
+h1.pagedonate {
+	font-size:37px;
+	color:#FFF;
+	font-family: HelveticaNeueW01-75Bold, Arial;
+	font-weight: normal;
+	text-transform: none;
+	line-height: 40px;
+    padding-bottom: 0px;
+    float: left;
+    display: block;
+    margin-top: 20px;
+	margin-right: 470px;
+	margin-left: 20px;
+}
+
+h2.pagedonate {
+	font-size:16px;
+	color:#FFF;
+	font-family: HelveticaNeueW01-55Roma, Arial;
+    font-weight: normal;
+	text-transform: none;
+	line-height: 20px;
+    padding-bottom: 0px;
+    float: left;
+    display: block;
+    margin-top: 16px;
+	margin-right: 488px;
+	margin-left: 20px;
+}
+
+a.pagedonate {
+	font-size: 16px;
+	text-decoration: underline;
+	color: #FFF;
+}
+
+h1.pagedonate_bar {
+	font-size:37px;
+	color:#FFF;
+	font-family: HelveticaNeueW01-75Bold, Arial;
+	font-weight: normal;
+	text-transform: none;
+	line-height: 40px;
+    padding-bottom: 0px;
+    float: left;
+    display: block;
+	margin-top: 305px;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+
+h2.pagedonate_bar {
+	font-size:16px;
+	color:#FFF;
+	font-family: HelveticaNeueW01-55Roma, Arial;
+    font-weight: normal;
+	text-transform: none;
+	line-height: 20px;
+    padding-bottom: 0px;
+    float: left;
+    display: block;
+	margin-top: 305px;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+
+a.pagedonate_bar {
+	font-size: 16px;
+	text-decoration: underline;
+	color: #FFF;
+}
+
+h1.signup {
+    font-family: HelveticaNeueW01-75Bold, Arial;
+    font-weight: normal;
+    color: #f58220;
+    text-transform: none;
+    font-size: 22px;
+    padding-bottom: 12px;
+    float: left;
+    display: block;
+    margin-top: 20px;
+}
+
+h2.signup {
+    color: #f58220;
+    font-size: 24px;
+    padding-bottom: 12px;
+}
+
+
+
+
+
+/* ? = ADDITIONAL
+------------------------- */
+
+.sub-panel  {
+	padding-top: 15px;
+}
+
+.ezlist ezlist_header {	
+	padding-top: 15px;
+}
+
+.main-content .two-column .center .form table, td, tr {
+padding-bottom: 7px;
+padding-right: 5px;
+}
+
+.right-content h4 { 
+	color:#54473f; 
+	padding-bottom:10px; 
+	font-size:14px; 
+	border-bottom:1px solid #54473f; 
+	margin-bottom:12px;
+}
+
+.custom-right-content h4 { 
+	color:#54473f; 
+	padding-bottom:10px; 
+	font-size:14px; 
+}
+
+.sorting-container h4 { 
+	font-size:14px; 
+	padding-bottom:10px; 
+	padding-top:10px; 
+	border-bottom:1px solid #ccc; 
+	margin-bottom:12px;
+}
+
+.two-col-tab-content h4 { 
+	width:197px; 
+	padding-bottom:5px; 
+}
+
+.comments h3 { 
+	color:#f58220; 
+	font-size:18px; 
+	padding-bottom:10px; 
+	border-bottom:1px solid #ccc; 
+	margin-bottom:20px 
+}
+
+.top-strip { 
+	width:100%; 
+	height:105px; 
+	background:url('/page/-/images/top-bar-bg.png') repeat-x; position:absolute; 
+	z-index:7; 
+	left:0; 
+}
+
+hr { 
+	display:block; 
+	border-top:1px solid #bfbfbe; 
+	height:1px;
+}
+
+.custom-right-content hr { 
+	margin-bottom:10px; 
+}
+
+
+
+/* .header .donate-btn:hover { 
+	-webkit-box-shadow:0 0 4px #c54b20; 
+	-moz-box-shadow:0 0 4px #c54b20; 
+	box-shadow:0 0 4px #c54b20; */ 
+}
+
+
+
+/* BEGIN: BSD Style overides */
+
+#contribution input#processbutton,
+input[type="submit"] {
+    background-color: #f58220;
+    color: #ddd;
+    font: bold 1.2em Georgia, Times, "Times New Roman", serif;
+    padding: 7px 30px 7px 10px;
+    border: 0px;
+    border-radius: 5px;
+}
+
+#contribution input#processbutton:hover,
+input[type="submit"]:hover {
+	color: #fff;
+}
+
+#loginform, #signinform { 
+	float:left; 
+	margin-right: 10px; 
+	width: 470px; 
+}
+
+#outreach_content #outreachsettings, #outreach_content #outreachpreview #outreachpreviewwrap, #odgettingstarted .odsechead, #odprogress .odsechead, #odyourpage .odsechead, #odstats .odsechead, #odaddress .odsechead, #odgroup .odsechead, #outreach_content #odgettingstarted, .ui-state-highlight { 
+	border:0 !important; 
+}
+
+input[type="submit"], input[type="button"], .bsd-page .ui-state-default, .bsd-page .ui-widget-content .ui-state-default { 
+	background-color: #f58220; 
+	color: #ddd; 
+	font: bold 1.2em Georgia, Times, "Times New Roman", serif; padding: 7px 10px !important; 
+	border: 0px; 
+	border-radius: 5px; 
+	cursor: pointer;
+}
+
+#outreachpage #outreachpicture, #outreachsplash p img { 
+	margin: 0 30px 30px 0; 
+}
+
+#outreachright .bsd-widget-inner-content { 
+	width:182px; 
+}
+
+#outreachright .bsd-widget-inner-content br:first-of-type { 
+	display:none; 
+}
+
+#outreachright .bsd-widget-inner-content .custom-tweet-button { 
+	float:right; 
+}
+
+#outreachright .bsd-widget-inner-content iframe { 
+	float:left; 
+	width:100px !important; 
+	margin-bottom:10px 
+}
+
+#breadcrumb span, #breadcrumb a { 
+	margin-right:10px; 
+	display:inline-block; 
+}
+
+.bsd-widget-header-content { 
+	text-align:left !important; 
+}
+
+#outreachpage { 
+	width:960px !important; 
+}
+
+#contribution input#processbutton, input[type="submit"] {
+	background-color: #f58220;
+	color: #FFF;
+	font: bold 1.2em;
+	font-family: HelveticaNeueW01-55Roma, Arial;
+	padding: 7px 30px 7px 10px;
+	border: 0px;
+	border-radius: 5px;
+	font-size: 16px;
+}
+
+#contribution input#processbutton:hover, input[type="submit"]:hover {
+    color: #DDD;
+}
+
+#contribution label, #contribution .fieldlabel  custom1{
+	text-transform: none;
+}
+
+
+#contribution td.contribbutton table td {
+	text-align: center;
+	padding-left: 82px;
+}
+
+.contribheader {
+	color:#f58220;
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 24px;
+	margin-bottom: 6px;
+	padding-top: 18px;
+	padding-bottom: 3px;
+	text-align: left;
+	border-bottom: 1px solid #ddd;
+}
+
+#contribution label, #contribution .fieldlabel {
+line-height: 20px;
+}
+
+.popuphelp img { 
+display: inline;
+}
+

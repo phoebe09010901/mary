@@ -1,0 +1,90 @@
+@font-face
+{
+	/*font-family: a;*/
+	font-family: "Museo Sans 500";
+	src: url('font/MuseoSans.eot');
+	src: url('font/MuseoSans.eot?#iefix') format('embedded-opentype'),
+	url('font/MuseoSans.svg#Museo Sans 500') format('svg'),
+	url('font/MuseoSans.woff') format('woff'),
+	url('font/MuseoSans.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;				
+}
+@font-face
+{
+	/*font-family: b;*/
+	font-family: "Museo Sans 500 Italic";
+	src: url('font/MuseoSans_500_Italic.eot');
+	src: url('font/MuseoSans_500_Italic.eot?#iefix') format('embedded-opentype'),
+	url('font/MuseoSans_500_Italic.svg#Museo Sans 500') format('svg'),
+	url('font/MuseoSans_500_Italic.woff') format('woff'),
+	url('font/MuseoSans_500_Italic.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face
+{
+	/*font-family: c;*/
+	font-family: "Myriad Pro bold";
+	src: url('font/myriadprobold.eot');
+	src: url('font/myriadprobold.eot?#iefix') format('embedded-opentype'),
+	url('font/myriadprobold.svg#Myriad Pro') format('svg'),
+	url('font/myriadprobold.woff') format('woff'),
+	url('font/myriadprobold.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face
+{
+	/*font-family: j;*/
+	font-family: "Myriad Pro";
+	src: url('font/MyriadPro-Regular.eot');
+	src: url('font/MyriadPro-Regular.eot?#iefix') format('embedded-opentype'),
+	url('font/MyriadPro-Regular.svg#Myriad Pro') format('svg'),
+	url('font/MyriadPro-Regular.woff') format('woff'),
+	url('font/MyriadPro-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face
+{
+	/*font-family: m;*/
+	font-family: "HelveticaNeue-Bold";
+	src: url('font/HelveticaNeue-Bold.eot');
+	src: url('font/HelveticaNeue-Bold.eot?#iefix') format('embedded-opentype'),
+	url('font/HelveticaNeue-Bold.svg#HelveticaNeue') format('svg'),
+	url('font/HelveticaNeue-Bold.woff') format('woff'),
+	url('font/HelveticaNeue-Bold.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face
+{
+	font-family: "Helvetica Neue";
+	src: url('font/hlzc.eot');
+	src: url('font/hlzc.eot?#iefix') format('embedded-opentype'),
+	url('font/hlzc.svg#Helvetica Neue') format('svg'),
+	url('font/hlzc.woff') format('woff'),
+	url('font/hlzc.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.font-family_01 { font-family: "Myriad Pro";}
+.font-family_02 { font-family: "Museo Sans 500";}
+.font-family_03 { font-family: "Helvetica Neue";}
+
+.font-size_13 { font-size:13px;}
+.font-size_14 { font-size:14px;}
+.font-size_15 { font-size:15px;}
+.font-size_17 { font-size:17px;}
+.font-size_27 { font-size:27px;}
+.font-size_37 { font-size:37px;}
+.font-size_57 { font-size:57px;}
+
+.line-height_25 { line-height: 25px;}
+.line-height_35 { line-height: 35px;}
+.line-height_70 { line-height: 70px;}
+
+.color_01 { color:#7B7C7E;}/*淺灰色*/
+.color_02 { color:#F90;}/*橘色*/

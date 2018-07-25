@@ -1,0 +1,113 @@
+/*---------------------------------------------------------------------------
+CONTRIBUTE SKIN CSS
+ ---------------------------------------------------------------------------*/
+#contribution td,
+#contribution th { padding-top: 2px; padding-bottom: 2px; vertical-align: top; }
+#contribution td td td { padding-top: 6px; padding-bottom: 6px; vertical-align: top; }
+
+/*FORM ELEMENT SPACING*/
+#contribution .checkbox,
+#contribution .radiobutton,
+#contribution .label,
+#contribution .text { margin: 0 .5em 0 0; }
+
+#processbutton { margin: 18px 0 9px 0; }
+
+/* HEADER FOR OUTREACH CONTRIB */
+div.outreachpagenotice {
+  text-align: center;
+  padding: 10px;
+  margin: 5px 0;
+  border: solid 1px black;
+}
+/* HEADER FOR MATCHED CONTRIB */
+div.matchnotice {
+  text-align: left;
+  padding: 10px;
+  margin: 5px 0;
+  border: solid 1px black;
+}
+
+/* FORM LAYOUT COLUMN */
+#contribution td.contribcolumn {
+  vertical-align: top;
+}
+
+/* SECTION HEADERS */
+#contribution td.contribheader,
+#contribution #pa_status { border-bottom: 1px solid #ddd; font-size: 18px; font-weight: bold; line-height: 24px; margin-bottom: 6px; padding-top: 18px; padding-bottom: 3px; text-align: left; }
+
+/* FORM SECTION FOR SUBMIT BUTTONS */
+#contribution td.contribbutton table td { text-align: center; }
+
+#contribution td.contribbutton input { font-weight: bold; }
+
+/* ELEMENT LABELS*/
+#contribution label, #contribution .fieldlabel  { font-weight: bold; padding: 0; margin: 0; text-transform: capitalize; }
+
+/* SUBTABLES OF MAIN FORM */
+/* should be fully expanded to maximize form symmetry */
+#contribution table { width: 100%; }
+td.contribcolumn td { vertical-align: bottom; }
+#contribution table.amounts td { vertical-align: middle; }
+
+#contribution .ticket_desc {
+    font-style: italic;
+    color: #666;
+}
+
+#contribution #tip_jar { border: 1px solid #ddd; background: #eee; padding: 10px; width: 50%; }
+
+#contribution #tip_jar #tip_jar_desc{ }
+#contribution #tickets table { width: 100%; }
+#contribution #tickets td { padding-bottom: 10px; vertical-align:top; }
+
+/* LINE ITEMS TABLE */
+table.line_items td { vertical-align: top; }
+
+td.amount { text-align: right; font-weight: bold; padding-right: 5px; }
+
+#amount_total { font-weight: bold; }
+
+/* ERRORS */
+#contribution .error { color: red; }
+
+.contriberrorbanner { color: red; font-weight: bold; padding-top: 18px; }
+
+#paypal_notice, #ach_payment_info { display: none; }
+
+.nested_table,
+#country_table td,
+#custom_country_field_table_1 td,
+#custom_country_field_table_2 td { padding: 0px; }
+
+#pa_iframe { border: 0; }
+
+/* CreditCardTypeSelector widget */
+tr.bsd-tableRow td.label { width: 30%; }
+.creditCardTypeSelector ul { padding: 0px; margin: 0px; }
+.creditCardTypeSelector li.card { display: box; float: left; list-style-type: none; height: 25px; width: 39px; margin: 2px; text-indent: -9999px; }
+
+/* The individual card styles */
+.creditCardTypeSelector li.vs { background: url('../../../images/Contribution/Cards/cc-sprites.gif') no-repeat; background-position: 0px 0px; }
+.creditCardTypeSelector li.vs.deselected { background-position: 0px -25px; }
+.creditCardTypeSelector li.mc { background: url('../../../images/Contribution/Cards/cc-sprites.gif') no-repeat; background-position: -49px 0px; }
+.creditCardTypeSelector li.mc.deselected { background-position: -49px -25px; }
+.creditCardTypeSelector li.ax { background: url('../../../images/Contribution/Cards/cc-sprites.gif') no-repeat; background-position: -98px 0px; }
+.creditCardTypeSelector li.ax.deselected { background-position: -98px -25px; }
+.creditCardTypeSelector li.ds { background: url('../../../images/Contribution/Cards/cc-sprites.gif') no-repeat; background-position: -147px 0px; }
+.creditCardTypeSelector li.ds.deselected { background-position: -147px -25px; }
+
+#BSD-quick_donate_info_address, #BSD-quick_donate_info_payment {
+    float: left;
+    width: 225px;
+}
+
+#BSD-quick_donate_info_payment {
+    color: #197419;
+}
+
+#BSD-quick_donate_info_options {
+    clear: both;
+}
+

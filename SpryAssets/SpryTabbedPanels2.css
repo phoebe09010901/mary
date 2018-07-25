@@ -1,0 +1,155 @@
+@charset "UTF-8";
+
+.TabbedPanels_2 {
+	overflow: hidden;
+	margin: 0px;
+	padding: 0px;
+	clear: none;
+	width: 96%; 
+}
+
+
+.TabbedPanels_2TabGroup {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 200px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+
+
+.TabbedPanels_2Tab {
+	position: relative;
+	top: 1px;
+	float: left;
+	background-color: #89bdda;
+	list-style: none;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	cursor: pointer;
+	height: 26px;
+	width: 70px;
+	margin-top: 0px;
+	margin-right: 10px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding-top: 4px;
+	padding-right: 10px;
+	padding-bottom: 4px;
+	padding-left: 10px;
+	font-family: "Helvetica Neue";
+	font-size: 20px;
+	font-weight: bolder;
+	color: #FFF;
+	text-align: center;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;   
+	-ms-border-radius: 5px; 
+	border-radius: 5px;	
+	
+}
+
+
+.TabbedPanels_2TabHover {
+	background-color: #599ac9;
+}
+
+
+.TabbedPanels_2TabSelected {
+	background-color: #599ac9;
+}
+
+
+.TabbedPanels_2Tab a {
+	color: black;
+	text-decoration: none;
+}
+
+
+.TabbedPanels_2ContentGroup {
+	clear: both;
+	background-color: #599ac9;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;   
+	-ms-border-radius: 10px; 
+	border-radius: 10px;		
+}
+
+
+.TabbedPanels_2Content {
+	overflow: hidden;
+	padding: 4px;
+}
+
+
+.TabbedPanels_2ContentVisible {
+}
+
+
+
+.VTabbedPanels_2 {
+	overflow: hidden;
+	zoom: 1;
+}
+
+
+.VTabbedPanels_2 .TabbedPanels_2TabGroup {
+	float: left;
+	width: 10em;
+	height: 20em;
+	background-color: #EEE;
+	position: relative;
+	border-top: solid 1px #999;
+	border-right: solid 1px #999;
+	border-left: solid 1px #CCC;
+	border-bottom: solid 1px #CCC;
+}
+
+
+.VTabbedPanels_2 .TabbedPanels_2Tab {
+	float: none;
+	margin: 0px;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+}
+
+
+.VTabbedPanels_2 .TabbedPanels_2TabSelected {
+	background-color: #EEE;
+	border-bottom: solid 1px #999;
+}
+
+
+.VTabbedPanels_2 .TabbedPanels_2ContentGroup {
+	clear: none;
+	float: left;
+	padding: 0px;
+	width: 30em;
+	height: 20em;
+}
+
+/* Styles for Printing */
+@media print {
+.TabbedPanels_2 {
+	overflow: visible !important;
+}
+.TabbedPanels_2ContentGroup {
+	display: block !important;
+	overflow: visible !important;
+	height: auto !important;
+}
+.TabbedPanels_2Content {
+	overflow: visible !important;
+	display: block !important;
+	clear:both !important;
+}
+.TabbedPanels_2Tab {
+	 overflow: visible !important;
+	 display: block !important;
+	 clear:both !important;
+}
+}

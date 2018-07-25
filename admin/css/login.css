@@ -1,0 +1,103 @@
+#login {
+	position: absolute; /*固定位置定位*/
+    top:50%; /*距離上方的位置*/
+    left:50%; /*距離左方的位置*/
+	margin: -180px 0 0 -140px;
+    z-index: 100;
+	width: 280px;
+	height: 360px;
+	background: #fff;
+	text-align: center;
+	overflow: hidden;
+	
+	-webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+	
+	-webkit-box-shadow:inset -1px 1px 1px rgb(250,250,250),
+		   inset 1px -1px 1px rgb(180,180,180),0px 4px 12px #000;
+-moz-box-shadow:inset -1px 1px 1px rgb(250,250,250),
+		   inset 1px -1px 1px rgb(180,180,180),0px 4px 12px #000;
+box-shadow:inset -1px 1px 1px rgb(200,200,200),
+		   inset 1px -1px 1px rgb(140,140,140),0px 4px 12px #000;
+behavior: url(../PIE.htc);
+	
+	border: #CCC 1px solid;
+}
+#login h2{
+	background: #f9f9f9;
+	padding: 16px 10px;
+	margin: 0;
+	font-size: 18px;
+	font-weight: normal;
+	color: #666;
+	box-shadow:inset 0px -4px 8px #e0e0e0;
+}
+#login .login{
+	margin: 15px;
+	overflow: hidden;
+}
+.input_box{
+	width:100%;
+	margin: 0 0 5px 0;
+	overflow: hidden;
+}
+.user {
+	width:80%;
+	text-indent: 20px;
+	background-image: url(../images/user.png);
+	background-repeat:no-repeat;
+	background-position: 8px center;
+}
+.user:hover{
+	background-image: url(../images/user.png);
+	background-repeat:no-repeat;
+	background-position: 8px center;
+}
+.password {
+	width:80%;
+	text-indent: 20px;
+	background-image: url(../images/password.png);
+	background-repeat:no-repeat;
+	background-position: 8px center;
+}
+.password:hover {
+	background-image: url(../images/password.png);
+	background-repeat:no-repeat;
+	background-position: 8px center;
+}
+
+.remember{
+	float: left;
+	padding: 6px 5px;
+}
+.remember .checkbox{
+	float: left;
+	width: 16px;
+	height: 16px;
+	margin: 1px;
+}
+.remember .txt{
+	float: left;
+	padding: 0 20px 0 3px;
+	font-size: 15px;
+	line-height: 100%;
+	color: #999;
+}
+.login_info {
+	position: absolute;
+	left:0; bottom: 0px;
+	width: 100%;
+	min-height:50px;
+	background: #393738;
+	text-align: center;
+	
+	box-shadow:inset 0px 4px 8px #111;
+}
+.login_info .info_txt {
+	margin: 20px;
+	text-align: center;
+	font-size: 13px;
+	line-height: 150%;
+	color: #888;
+}
